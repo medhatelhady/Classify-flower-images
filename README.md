@@ -36,23 +36,23 @@ to run the program, if you would like train the model, then run `train.py` and s
 * use gpu or cpu
 
 you have multiple options:
-Set directory to save checkpoints: 
+* Set directory to save checkpoints: 
 `python train.py data_dir --save_dir save_directory`
-Choose architecture: 
+* Choose architecture: 
 `python train.py data_dir --arch "vgg13"`
-Set hyperparameters: 
+* Set hyperparameters: 
 `python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20`
-Use GPU for training: 
+* Use GPU for training: 
 `python train.py data_dir --gpu`
 
 
 in order to predict result, then run `predict.py` and specify 
 Options:
-Return top KK most likely classes: 
+* Return top KK most likely classes: 
 `python predict.py input checkpoint --top_k 3`
-Use a mapping of categories to real names: 
+* Use a mapping of categories to real names: 
 `python predict.py input checkpoint --category_names cat_to_name.json`
-Use GPU for inference: 
+* Use GPU for inference: 
 `python predict.py input checkpoint --gpu`
 
 
