@@ -19,7 +19,7 @@ You will also need to have software installed to run and execute an iPython Note
 We recommend students install Anaconda, a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
 
 ### Objectives
-1. use transfer learning techniques to update pre-trained model (resnet) to predict flowers type. 
+use transfer learning techniques to update pre-trained model (resnet) to predict flowers type. 
 
 
 
